@@ -10,34 +10,64 @@
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        <!--CSS style-->
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header>
+        
+        <header class="jumbotron">
             <div class="container">
-                <div class="row">
-                    <div>
-                        <h1>Hello</h1>
+                <div class="row row-header justify-content-center">
+                    <div class="col-auto">
+                        <h1>Title</h1>
+                    </div>
+                </div>
+                <div class="row row-header justify-content-center">
+                    <div class="col-auto">
+                        <p>Edit the title.</p>
                     </div>
                 </div>
             </div>
         </header>
-        <div class="container">
-            <div class="row">
-                <div>
-                    <h1>World</h1>
+
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-phone fa-lg"></span> Contact</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div>
-
+        </nav>
+        
+        <div class="container">
+            <div class="row row-content align-items-start">
+                <div class="col-12 col-sm-4 col-md-4">
+                    <h1>World</h1>
+                </div>
+                <div class="col col-sm col-md">
+                    <p>This is the world we live in.</p>
+                </div>
+            </div>
+            <div class="row row-content align-items-start">
+                <div class="col-12 col-md-8">
+                    <h1>Image Here</h1>
                 </div>
             </div>
         </div>
-        <footer>
+        <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div>
-                        
+                    <div class="col-4 offset-1 col-sm-2">
+                        <h4>Links</h4>
+                        <ul class="list-unstyled">
+                            
+                        </ul>
                     </div>
                 </div>
             </div>
