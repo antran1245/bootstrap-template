@@ -37,3 +37,8 @@ body {
     padding: 0 0 50px 0;
     min-height: 400px;
 }
+
+.required::after{
+    content: "*";
+    color: red;
+}
